@@ -6,7 +6,9 @@ def pdf_builder(kanji):
 
     pdf.add_font("Kanji", style="", fname="KanjiStrokeOrders_v4.005.ttf")
     pdf.set_font("Kanji", size=110)
-    pdf.text(kanji, 10, "Kanji")
 
+    pdf.cell(text=kanji,border=1)
 
     pdf.output("pdf.pdf")
+
+pdf_builder("")
