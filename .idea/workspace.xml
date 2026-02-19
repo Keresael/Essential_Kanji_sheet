@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e29e4b11-0733-4751-9fb6-3e33e60cd601" name="Changes" comment="Gui improvement">
+    <list default="true" id="e29e4b11-0733-4751-9fb6-3e33e60cd601" name="Changes" comment="Pdf class Rewrite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pdf_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdf_builder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,12 @@
     &quot;accountId&quot;: &quot;d4f97852-c224-4a20-9740-b18e8e716da9&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/fpdf2/fpdf/fpdf.pyi" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -91,7 +98,19 @@
       <workItem from="1762276296691" duration="5000" />
       <workItem from="1762285975473" duration="4013000" />
       <workItem from="1762291750058" duration="49000" />
-      <workItem from="1762338758515" duration="4754000" />
+      <workItem from="1762338758515" duration="5431000" />
+      <workItem from="1762358793223" duration="3000000" />
+      <workItem from="1762369022238" duration="654000" />
+      <workItem from="1762371074367" duration="4308000" />
+      <workItem from="1762417840878" duration="6000" />
+      <workItem from="1762517045022" duration="605000" />
+      <workItem from="1762521178944" duration="4000" />
+      <workItem from="1762945446456" duration="8000" />
+      <workItem from="1767145465592" duration="276000" />
+      <workItem from="1768240645481" duration="5000" />
+      <workItem from="1769807291960" duration="53000" />
+      <workItem from="1771497580968" duration="2340000" />
+      <workItem from="1771500036140" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="idk">
       <option name="closed" value="true" />
@@ -157,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762183345994</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Pdf class Rewrite">
+      <option name="closed" value="true" />
+      <created>1762350304217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762350304217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,11 +193,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="idk" />
     <MESSAGE value="Gui improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gui improvement" />
+    <MESSAGE value="Pdf class Rewrite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pdf class Rewrite" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/gui.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Essential_Kanji_sheet$pdf_builder.coverage" NAME="pdf_builder Coverage Results" MODIFIED="1762350082697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/Essential_Kanji_sheet$gui.coverage" NAME="gui Coverage Results" MODIFIED="1762180178451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/Essential_Kanji_sheet$main.coverage" NAME="main Coverage Results" MODIFIED="1762291163328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Essential_Kanji_sheet$pdf_builder.coverage" NAME="pdf_builder Coverage Results" MODIFIED="1771498979886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Essential_Kanji_sheet$gui.coverage" NAME="gui Coverage Results" MODIFIED="1771499588473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Essential_Kanji_sheet$main.coverage" NAME="main Coverage Results" MODIFIED="1771500160068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
