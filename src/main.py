@@ -1,5 +1,7 @@
-from gui import *
+import tkinter as tk
 
-gui = Tk()
-main_gui(gui)
-gui.mainloop()
+from gui import main_gui
+
+root = tk.Tk()
+main_gui(root)
+root.mainloop()
